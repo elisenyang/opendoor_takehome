@@ -1,0 +1,24 @@
+{
+  "name": "opendoor_takehome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisenyang/opendoor_takehome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elisenyang/opendoor_takehome/issues"
+  },
+  "homepage": "https://github.com/elisenyang/opendoor_takehome#readme",
+  "dependencies": {
+    "csvtojson": "^1.1.7",
+    "express": "^4.15.3",
+    "underscore": "^1.8.3"
+  }
+}
