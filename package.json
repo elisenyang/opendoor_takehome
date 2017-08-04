@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,15 @@
   },
   "homepage": "https://github.com/elisenyang/opendoor_takehome#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
     "csvtojson": "^1.1.7",
     "express": "^4.15.3",
-    "underscore": "^1.8.3"
+    "hat": "0.0.3",
+    "jsonwebtoken": "^7.4.1",
+    "mocha": "^3.5.0",
+    "mongoose": "^4.11.5",
+    "morgan": "^1.8.2"
   }
 }

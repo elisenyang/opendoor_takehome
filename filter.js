@@ -1,5 +1,4 @@
 var reader = require('./data.js')
-var _ = require('underscore')
 
 let data
 reader()
