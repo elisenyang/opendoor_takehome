@@ -59,7 +59,7 @@ app.get('/listings', function(req,res) {
         }
       })
     })
-    res.send(JSON.stringify(geoJSON))
+    res.json(geoJSON)
   })
 })
 
